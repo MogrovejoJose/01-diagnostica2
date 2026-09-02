@@ -11,7 +11,7 @@ public class Ejercicio5 {
         System.out.println("Promedio: " + promedio);
 
         // TODO: Instancia la clase Estudiante y llama a su método mostrarFicha()
-        Estudiante estudiante = new Estudiante("Carlos", 20, "Programación");
+        Estudiante estudiante = new Estudiante("Carlos", 20, "tercero");
         estudiante.mostrarFicha();
     }
 }

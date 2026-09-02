@@ -4,7 +4,7 @@
  * ============================================================================
  */
 
-* {
+ .header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,9 +13,8 @@
 
 body {
   background-color: #F1F5F9;
-  /* BUG CSS: Propiedades inválidas o mal escritas */
-  display: flexer;
-  align-item: center;
+  display: flex;
+  align-items: center;
   padding: 20px;
 }
 
@@ -43,15 +42,14 @@ body {
   font-size: 16px;
 }
 
-#btn-calcular {
+.btn-calcular {
   width: 100%;
   padding: 12px;
   font-size: 16px;
   font-weight: bold;
   background-color: #FDE047;
   border: 2px solid #000000;
-  /* BUG CSS: valor inválido en cursor */
-  cursor: pointing-hand;
+  cursor: pointer;
   border-radius: 6px;
 }
 

@@ -13,6 +13,6 @@
 .header{
     display: grid;
     background: red;
-    color: antiquewhite;
+    color: rgb(13, 156, 13);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
