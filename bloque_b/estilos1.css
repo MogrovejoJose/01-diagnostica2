@@ -10,3 +10,9 @@
  */
 
 /* TODO: Escribe aquí tus reglas de estilos CSS */
+.header{
+    display: grid;
+    background: red;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
